@@ -1,7 +1,5 @@
-/**
- * Require modules
- */
-const http = require('http');
-const fs = require('fs');
-const mime = require('mime');
+// Import module server
+var server = require("./server");
 
+// Start server
+server.start();
